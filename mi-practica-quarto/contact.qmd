@@ -1,0 +1,24 @@
+---
+title: "Contact"
+---
+
+# 📬 Contact Me
+
+Feel free to reach out to me for any inquiries or collaborations!
+
+::: {.callout-note appearance="minimal"}
+### Alex Cano
+**Email:** [alex40806@gmail.com](mailto:alex40806@gmail.com)
+:::
+
+## 🌐 Connect
+
+- 📧 Send me an email using the link above.
+- 🚀 Explore my [GitHub profile](https://github.com/Alexkano10) for more projects.
+
+::: {.callout-tip appearance="default"}
+I'm always open to discussing exciting projects, sharing knowledge, or collaborating on innovative ideas!
+:::
+
+Below is a visual guide to contacting me. Follow the steps and let's connect!
+
