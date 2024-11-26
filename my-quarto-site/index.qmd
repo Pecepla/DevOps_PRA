@@ -11,7 +11,7 @@ date: today
 My first callout
 :::
 
-```mermaid
+```{mermaid}
 flowchart TD
     A --> B
     B --> C
