@@ -4,7 +4,7 @@ name: Quarto Publish
 on:
   push:
     branches:
-      - main
+      - MF01-PRA01-AlberteMartinez
   workflow_dispatch:
 
 jobs:
