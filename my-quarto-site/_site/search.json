@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "my-quarto-site",
     "section": "",
-    "text": "#Alberte’s Quarto"
+    "text": "#Alberte’s Quarto\nflowchart TD\n    A --&gt; B\n    B --&gt; C\n    C --&gt; D"
   },
   {
     "objectID": "index.html#check-it-out",
