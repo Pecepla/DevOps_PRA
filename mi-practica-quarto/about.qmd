@@ -19,3 +19,18 @@ About my technologies
 | **Git/GitHub**               | Avanzado           | Control de versiones y gestión de código.        |
 | **Quarto**                   | Básico             | Creación de documentación interactiva.           |
 | **Mermaid**                  | Básico             | Diagramas y visualizaciones en Markdown.         |
+
+
+
+```{r, echo=FALSE}
+# Random funny quotes
+quotes <- c(
+  "Why do programmers prefer dark mode? Because light attracts bugs!",
+  "Why do Java developers wear glasses? Because they don’t see sharp.",
+  "I’m not a great programmer; I’m just a good programmer with great Google skills.",
+  "To understand what recursion is, you must first understand recursion."
+)
+
+set.seed(Sys.time())
+sample(quotes, 1)
+
