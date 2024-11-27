@@ -67,6 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -188,6 +191,30 @@ Tip
 </div>
 </div>
 <p>Below is a visual guide to contacting me. Follow the steps and let’s connect!</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#FFFFFF", "textColor": "#000000", "edgeLabelBackground": "#FFFFFF"}} }%%
+flowchart TD
+    A[**Contacto Personal**] --&gt; B{**¿Necesitas Ayuda?**}
+    B --&gt;|**Sí**| C[**Método de Contacto**]
+    B --&gt;|**No**| D[**Gracias por tu Interés**]
+    C --&gt; E[**Correo Electrónico:contacto@ejemplo.com**]
+    C --&gt; F[**Teléfono:+54 9 11 1234-5678**]
+    C --&gt; G[**Redes Sociales**]
+    E --&gt; H[**Espera Respuesta**]
+    F --&gt; H
+    G --&gt; H
+    H --&gt; I[**Comunicación Establecida**]
+    I --&gt; J[**Fin del Contacto**]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 </section>
