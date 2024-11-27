@@ -2,7 +2,7 @@ name: Quarto Publish
 
 on:
   push:
-    branches:
+    branches: 
       - MF01-PRA02-AlexCano
   workflow_dispatch:
 
@@ -14,13 +14,11 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
+      
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
+      
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
