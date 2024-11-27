@@ -29,8 +29,8 @@ git push origin $(git rev-parse --abbrev-ref HEAD)
 # Log the successful push
 log_message "Pushed changes to $(git rev-parse --abbrev-ref HEAD) branch"
 
-# Publish to GitHub Pages using Quarto
-quarto publish gh-pages --no-render --no-prompt
+# Publish to GitHub Pages using Quarto from the correct folder
+quarto publish gh-pages --no-render --no-prompt --project-dir ./mi-practica-quarto
 
 # Log the completion of the publishing process
 log_message "Published to GitHub Pages"
