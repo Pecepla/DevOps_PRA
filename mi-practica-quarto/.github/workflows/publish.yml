@@ -1,10 +1,11 @@
 name: Quarto Publish
 on:
+  workflow_dispatch:
   push:
     branches: 
       - master
       - MF01-PRA02-AlexCano
-  workflow_dispatch:
+  
 
 jobs:
   build-deploy:
@@ -22,3 +23,5 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+        env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
