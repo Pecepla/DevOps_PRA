@@ -7,6 +7,8 @@ title: "my-quarto-site"
 This is an important note.
 :::
 
+probamos la automatización
+
 ```{mermaid}
   graph LR
       A[Client] --> B[Load Balancer]
@@ -15,6 +17,7 @@ This is an important note.
 ```
 
 # Que hacemos con Order?
+
 
 Tenemos una clase `Order` que es una clase normal, de la que deriban 3 clases `Order`: `TakeAwayOrder` `EatInOrderRestaurant` y `ShippingOrder`. Entonces teniendo en cuenta la futura escalabilidad, la eficiencia y la mantenibilidad del proyecto deberiamos barajar varias opciones para sintetizar la clase order y declararla de la mejor forma posible.
 
