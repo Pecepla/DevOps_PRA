@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Change directory to mi-practica-quarto
-        run: cd mi-practica-quarto
+        run: cd mi-practica-quarto && ls -la  # Listar archivos para verificar
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
