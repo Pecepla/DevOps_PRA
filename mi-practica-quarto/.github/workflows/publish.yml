@@ -4,6 +4,7 @@ on:
     branches: 
       - master
       - MF01-PRA02-AlexCano
+      - MF01-PRA01-AlexCano
   workflow_dispatch:
 
 jobs:
