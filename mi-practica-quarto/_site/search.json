@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "mi-practica-quarto",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
@@ -14,17 +21,10 @@
     "text": "📧 Send me an email using the link above.\n🚀 Explore my GitHub profile for more projects.\n\n\n\n\n\n\n\nTip\n\n\n\nI’m always open to discussing exciting projects, sharing knowledge, or collaborating on innovative ideas!\n\n\nBelow is a visual guide to contacting me. Follow the steps and let’s connect!\n\n\n\n\n\n%%{init: {\"theme\": \"base\", \"themeVariables\": {\"primaryColor\": \"#FFFFFF\", \"textColor\": \"#000000\", \"edgeLabelBackground\": \"#FFFFFF\"}} }%%\nflowchart TD\n    A[**Contacto Personal**] --&gt; B{**¿Necesitas Ayuda?**}\n    B --&gt;|**Sí**| C[**Método de Contacto**]\n    B --&gt;|**No**| D[**Gracias por tu Interés**]\n    C --&gt; E[**Correo Electrónico:contacto@ejemplo.com**]\n    C --&gt; F[**Teléfono:+54 9 11 1234-5678**]\n    C --&gt; G[**Redes Sociales**]\n    E --&gt; H[**Espera Respuesta**]\n    F --&gt; H\n    G --&gt; H\n    H --&gt; I[**Comunicación Establecida**]\n    I --&gt; J[**Fin del Contacto**]"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "mi-practica-quarto",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\nTecnologías\n\n\n\n\n\n\n\n\nTecnología\nNivel\nComentarios\n\n\n\n\nSpring Boot\nIntermedio\nFramework para aplicaciones web en Java.\n\n\nJPA / Hibernate\nIntermedio\nManejo de bases de datos en aplicaciones Java.\n\n\nH2\nBásico\nBase de datos ligera utilizada en pruebas.\n\n\nAWS\nBásico\nConocimientos en servicios de nube de Amazon.\n\n\nKubernetes\nBásico\nOrquestación de contenedores.\n\n\nDocker\nIntermedio\nContenedores para aplicaciones.\n\n\nJenkins\nBásico\nHerramienta de integración continua.\n\n\nGit/GitHub\nAvanzado\nControl de versiones y gestión de código.\n\n\nQuarto\nBásico\nCreación de documentación interactiva.\n\n\nMermaid\nBásico\nDiagramas y visualizaciones en Markdown."
+    "text": "About my technologies\n\nTecnologías\n\n\n\n\n\n\n\n\nTecnología\nNivel\nComentarios\n\n\n\n\nSpring Boot\nIntermedio\nFramework para aplicaciones web en Java.\n\n\nJPA / Hibernate\nIntermedio\nManejo de bases de datos en aplicaciones Java.\n\n\nH2\nBásico\nBase de datos ligera utilizada en pruebas.\n\n\nAWS\nBásico\nConocimientos en servicios de nube de Amazon.\n\n\nKubernetes\nBásico\nOrquestación de contenedores.\n\n\nDocker\nIntermedio\nContenedores para aplicaciones.\n\n\nJenkins\nBásico\nHerramienta de integración continua.\n\n\nGit/GitHub\nAvanzado\nControl de versiones y gestión de código.\n\n\nQuarto\nBásico\nCreación de documentación interactiva.\n\n\nMermaid\nBásico\nDiagramas y visualizaciones en Markdown."
   }
 ]
