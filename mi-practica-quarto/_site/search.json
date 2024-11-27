@@ -2,9 +2,37 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "mi-practica-quarto",
+    "title": "Welcome to My Portfolio",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hello, I’m Alex, a passionate Backend Developer and DevOps Engineer. Welcome to my online space where I share my journey in the world of programming, technology, and cloud solutions.\n\n\nI’m deeply focused on building scalable and reliable backend systems, with a strong expertise in DevOps practices. My goal is to create efficient, automated workflows and powerful applications that drive business success.\n\n\n\nBackend Development: I specialize in creating robust and scalable server-side applications using Java, Spring Boot, Node.js, and more.\nDevOps Engineering: I automate infrastructure, streamline deployments, and implement continuous integration/continuous delivery (CI/CD) pipelines with tools like Docker, Kubernetes, Jenkins, and AWS.\n\n\n\n\n\n\nProject 1: Backend System: A scalable solution for handling large-scale data processing.\nProject 2: CI/CD Pipeline: A fully automated pipeline for continuous deployment to production.\n\n\n\n\nFeel free to reach out for collaborations, advice, or just to chat about tech:\n\nEmail: alex@example.com\nGitHub: github.com/alexkano\nLinkedIn: linkedin.com/in/alexkano\n\n\n\n\n\nThis page was created with Quarto and designed to showcase my skills and projects. Feel free to explore and connect!"
+  },
+  {
+    "objectID": "index.html#who-am-i",
+    "href": "index.html#who-am-i",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "I’m deeply focused on building scalable and reliable backend systems, with a strong expertise in DevOps practices. My goal is to create efficient, automated workflows and powerful applications that drive business success.\n\n\n\nBackend Development: I specialize in creating robust and scalable server-side applications using Java, Spring Boot, Node.js, and more.\nDevOps Engineering: I automate infrastructure, streamline deployments, and implement continuous integration/continuous delivery (CI/CD) pipelines with tools like Docker, Kubernetes, Jenkins, and AWS."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "Project 1: Backend System: A scalable solution for handling large-scale data processing.\nProject 2: CI/CD Pipeline: A fully automated pipeline for continuous deployment to production."
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "Feel free to reach out for collaborations, advice, or just to chat about tech:\n\nEmail: alex@example.com\nGitHub: github.com/alexkano\nLinkedIn: linkedin.com/in/alexkano"
+  },
+  {
+    "objectID": "index.html#lets-build-the-future-together",
+    "href": "index.html#lets-build-the-future-together",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "This page was created with Quarto and designed to showcase my skills and projects. Feel free to explore and connect!"
   },
   {
     "objectID": "contact.html",
@@ -25,6 +53,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About my technologies\n\nTecnologías\n\n\n\n\n\n\n\n\nTecnología\nNivel\nComentarios\n\n\n\n\nSpring Boot\nIntermedio\nFramework para aplicaciones web en Java.\n\n\nJPA / Hibernate\nIntermedio\nManejo de bases de datos en aplicaciones Java.\n\n\nH2\nBásico\nBase de datos ligera utilizada en pruebas.\n\n\nAWS\nBásico\nConocimientos en servicios de nube de Amazon.\n\n\nKubernetes\nBásico\nOrquestación de contenedores.\n\n\nDocker\nIntermedio\nContenedores para aplicaciones.\n\n\nJenkins\nBásico\nHerramienta de integración continua.\n\n\nGit/GitHub\nAvanzado\nControl de versiones y gestión de código.\n\n\nQuarto\nBásico\nCreación de documentación interactiva.\n\n\nMermaid\nBásico\nDiagramas y visualizaciones en Markdown."
+    "text": "About my technologies\n\nTecnologías\n\n\n\n\n\n\n\n\nTecnología\nNivel\nComentarios\n\n\n\n\nSpring Boot\nIntermedio\nFramework para aplicaciones web en Java.\n\n\nJPA / Hibernate\nIntermedio\nManejo de bases de datos en aplicaciones Java.\n\n\nH2\nBásico\nBase de datos ligera utilizada en pruebas.\n\n\nAWS\nBásico\nConocimientos en servicios de nube de Amazon.\n\n\nKubernetes\nBásico\nOrquestación de contenedores.\n\n\nDocker\nIntermedio\nContenedores para aplicaciones.\n\n\nJenkins\nBásico\nHerramienta de integración continua.\n\n\nGit/GitHub\nAvanzado\nControl de versiones y gestión de código.\n\n\nQuarto\nBásico\nCreación de documentación interactiva.\n\n\nMermaid\nBásico\nDiagramas y visualizaciones en Markdown.\n\n\n\nHere is a fun image to brighten your day:\n\n\n\nFun Image\n\n\nEnjoy coding and keep having fun!"
   }
 ]

@@ -24,6 +24,6 @@ About my technologies
 
 Here is a fun image to brighten your day:
 
-![Fun Image](https://example.com/path-to-your-image.jpg)
+![Fun Image](img/maiz.avif)
 
 Enjoy coding and keep having fun!

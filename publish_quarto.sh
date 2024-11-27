@@ -17,7 +17,7 @@ git push origin MF03-PRA3-AlexCano
 cd mi-practica-quarto
 
 # Publish to GitHub Pages using quarto
-quarto publish gh-pages --no-render --no-prompt
+quarto publish gh-pages --no-prompt
 
 # Log the message to a log file
 log_message() {
