@@ -22,15 +22,8 @@ About my technologies
 
 
 
-```{r, echo=FALSE}
-# Random funny quotes
-quotes <- c(
-  "Why do programmers prefer dark mode? Because light attracts bugs!",
-  "Why do Java developers wear glasses? Because they don’t see sharp.",
-  "I’m not a great programmer; I’m just a good programmer with great Google skills.",
-  "To understand what recursion is, you must first understand recursion."
-)
+Here is a fun image to brighten your day:
 
-set.seed(Sys.time())
-sample(quotes, 1)
+![Fun Image](https://example.com/path-to-your-image.jpg)
 
+Enjoy coding and keep having fun!
