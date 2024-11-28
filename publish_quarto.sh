@@ -1,52 +1,52 @@
 #!/bin/bash
 
-# Función para registrar mensajes en un archivo de log
+# Function to log messages to a log file
 log_message() {
     local message="$1"
     local timestamp=$(date +"%Y-%m-%d %H:%M:%S")
     echo "[${timestamp}] ${message}" >> log.txt
 }
 
-# Verificar si se ha proporcionado un mensaje de commit
+# Check if a commit message was provided
 if [ -z "$1" ]; then
-  echo "Error: Por favor, proporciona un mensaje para el commit."
-  log_message "Error: No se proporcionó un mensaje para el commit."
+  echo "Error: Please provide a commit message."
+  log_message "Error: No commit message provided."
   exit 1
 fi
 
-# Registrar el inicio del script
-log_message "Inicio del script: commit con mensaje '$1'."
+# Log the start of the script
+log_message "Script started: committing with message '$1'."
 
-# Añadir los cambios al área de staging
+# Stage all changes
 git add .
 if [ $? -ne 0 ]; then
-    log_message "Error al ejecutar 'git add'."
+    log_message "Error executing 'git add'."
     exit 1
 fi
 
-# Realizar el commit con el mensaje proporcionado
+# Commit the changes with the provided message
 git commit -m "$1"
 if [ $? -ne 0 ]; then
-    log_message "Error al ejecutar 'git commit'."
+    log_message "Error executing 'git commit'."
     exit 1
 fi
-log_message "Commit realizado con éxito."
+log_message "Commit completed successfully."
 
-# Subir los cambios a la rama main
-git push origin main
+# Push changes to the main branch
+git push origin MF01-PRA03-AlberteMartinez
 if [ $? -ne 0 ]; then
-    log_message "Error al ejecutar 'git push'."
+    log_message "Error executing 'git push'."
     exit 1
 fi
-log_message "Push realizado con éxito a la rama 'main'."
+log_message "Push to 'main' branch completed successfully."
 
-# Publicar en GitHub Pages usando Quarto
+# Publish to GitHub Pages using Quarto
 quarto publish gh-pages --no-render --no-prompt
 if [ $? -ne 0 ]; then
-    log_message "Error al publicar con Quarto."
+    log_message "Error publishing with Quarto."
     exit 1
 fi
-log_message "Publicación en GitHub Pages completada con éxito."
+log_message "Publication to GitHub Pages completed successfully."
 
-# Finalización del script
-log_message "Fin del script."
+# End of the script
+log_message "Script finished."
