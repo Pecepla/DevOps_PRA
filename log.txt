@@ -1,1 +1,3 @@
 [2024-11-28 17:51:58] Inicio del script: commit con mensaje 'Testing commits'.
+[2024-11-28 17:51:58] Commit realizado con éxito.
+[2024-11-28 17:51:58] Error al ejecutar 'git push'.
